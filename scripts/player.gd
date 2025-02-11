@@ -34,9 +34,9 @@ var direction := Vector3.ZERO
 # Movement Vars
 @export var jump_vel = 4.5
 @export var freelook_enabled = true
+@export var freelook_tilt = -6
 const lerp_speed = 10.0
 var crouching_depth = -0.5
-var freelook_tilt = -6
 
 # Functions
 func _ready() -> void:
